@@ -1,27 +1,48 @@
-# 🌊 Denizaltı Teknolojileri ve TRL İzleme Merkezi
+# 🌊 Denizaltı Akademisi
 
 <div align="center">
 
 ![Denizaltı Akademisi Banner](assets/banner.png)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TRL Monitoring](https://img.shields.io/badge/Status-TRL%20Monitoring-blue)](./TRL_REHBERI.md)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-f3b65f?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![TRL Monitoring](https://img.shields.io/badge/TRL-Izleme%20Merkezi-44d7c7?style=for-the-badge)](./TRL_REHBERI.md)
+[![Dashboard](https://img.shields.io/badge/Dashboard-GitHub%20Pages-6ee7d8?style=for-the-badge)](./docs/index.html)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Hos%20Geldin-7ddf89?style=for-the-badge)](http://makeapullrequest.com)
 
-**"Sessizlikte Güç, Derinlikte Hakimiyet: Mavi Vatan'ın Çelik Muhafızları İçin Teknolojik Öngörü."**
+### TRL odaklı su altı teknolojileri, platform kıyasları ve açık kaynak savunma hafızası.
+
+**Sessizlikte güç. Derinlikte hakimiyet. Veride disiplin.**
+
+[🚀 Dashboard'u Aç](./docs/index.html) · [📊 TRL Rehberi](./TRL_REHBERI.md) · [📘 Sözlük](./SOZLUK.md) · [🤝 Katkı](./CONTRIBUTING.md)
 
 </div>
 
-## 📚 Kaynaklar ve Rehberler
+---
 
-Bu akademi, sadece veri yığınından ibaret değildir. Kavramları anlamanız için hazırlanan rehberler:
+## ⚓ Komuta Merkezi
 
--   **[TRL Rehberi](./TRL_REHBERI.md):** Teknoloji Hazırlık Seviyeleri (1-9) denizaltı dünyasında ne anlama gelir?
--   **[Denizaltı Sözlüğü (SOZLUK)](./SOZLUK.md):** *Termoklin, Kavitasyon, Baffles* nedir? Teknik terimler rehberi.
--   **[Katkı Rehberi](./CONTRIBUTING.md):** Bu projeye nasıl destek olabilirsiniz?
--   **[Etkileşimli TRL İzleme Paneli](./docs/index.html):** Teknoloji alanlarını, TRL dağılımını ve dünya platformlarını filtrelenebilir bir dashboard üzerinden keşfedin.
+| Rota | Ne Sağlar? |
+| :--- | :--- |
+| **[Etkileşimli TRL İzleme Paneli](./docs/index.html)** | Teknoloji alanlarını, TRL dağılımını ve dünya platformlarını filtrelenebilir bir dashboard üzerinde gösterir. |
+| **[TRL Rehberi](./TRL_REHBERI.md)** | Denizaltı teknolojileri için TRL 1-9 ölçeğini ortak bir değerlendirme diline çevirir. |
+| **[Denizaltı Sözlüğü](./SOZLUK.md)** | Termoklin, kavitasyon, baffles ve benzeri kritik kavramları hızlıca açıklar. |
+| **[Katkı Rehberi](./CONTRIBUTING.md)** | Yeni analiz, düzeltme ve veri güncellemeleri için katkı standardını tanımlar. |
 
-## 🎯 Vizyon ve Derinlemesine Amaç
+## ✨ Proje Kimliği
+
+Denizaltı Akademisi; su altı harp teknolojilerini, denizaltı platformlarını ve gelişen mühendislik trendlerini **TRL (Technology Readiness Level)** perspektifiyle izleyen bir açık kaynak bilgi merkezidir.
+
+Bu repo; dağınık teknik notları tek bir stratejik hafızada toplar, teknolojileri olgunluk seviyesine göre sınıflandırır ve araştırmacılar için okunabilir, doğrulanabilir, geliştirilebilir bir referans zemini sunar.
+
+**Öne çıkanlar**
+
+- **TRL tabanlı izleme:** Her teknoloji, fikir aşamasından operasyonel kanıta kadar ortak bir ölçekle takip edilir.
+- **Alan bazlı teknoloji haritası:** İtki, savaş sistemleri, platform/gövde ve insansız sistemler ayrı modüllerde incelenir.
+- **Küresel platform kıyasları:** Seawolf, Virginia, Yasen-M, Astute, Suffren ve diğer modern sınıflar tek çatı altında profilize edilir.
+- **Statik dashboard:** GitHub Pages uyumlu, bağımlılıksız ve filtrelenebilir bir görsel izleme paneli içerir.
+- **Doğrulama aracı:** Markdown bağlantıları ve dashboard veri bütünlüğü tek komutla kontrol edilir.
+
+## 🎯 Vizyon
 
 Bu proje, sadece bir veri deposu olmanın ötesine geçerek, denizaltı ve su altı harp teknolojilerini **Teknoloji Hazırlık Seviyesi (Technology Readiness Level - TRL)** perspektifiyle titizlikle izleyen, derinlemesine analiz eden ve stratejik bir hafıza oluşturan yeni nesil bir açık kaynak istihbarat ve bilgi merkezidir.
 
@@ -29,7 +50,29 @@ Temel amacımız, laboratuvar ortamındaki henüz filizlenen teorik konseptlerde
 
 ---
 
-## 🧭 Teknoloji Takip Alanları ve İzleme Paneli (Dashboard)
+## 🚦 Hızlı Başlangıç
+
+Bu repo doğrudan okunabilir Markdown dokümanlarından ve bağımlılıksız bir statik dashboard'dan oluşur.
+
+```bash
+python -m http.server 8765
+```
+
+Ardından paneli açın:
+
+```text
+http://127.0.0.1:8765/docs/index.html
+```
+
+Veri ve bağlantı sağlığını kontrol etmek için:
+
+```bash
+python scripts/validate_academy.py
+```
+
+---
+
+## 🧭 Teknoloji Radarları
 
 Denizaltı harbi, çok disiplinli mühendislik dallarının en uç noktada birleştiği bir alandır. Bu bağlamda, teknolojileri birbirleriyle etkileşim içinde olan dört ana stratejik sütun altında sınıflandırarak izliyoruz. Aşağıdaki dashboard, bu kritik alanlara hızlı erişim sağlar:
 
@@ -40,6 +83,19 @@ Denizaltı harbi, çok disiplinli mühendislik dallarının en uç noktada birle
 | **🚢 Platform, Gövde ve Malzeme** | Hidrodinamik Tekne Tasarımı, Yüksek Akma Mukavemetli Çelikler, Akustik Sönümleyici (Stealth) Kaplamalar, Titreşim İzolasyonu ve Korozyon Önleme. | [Projeleri İncele ve Analiz Et](./03_PLATFORM_VE_GOVDE/PROJELER.md) |
 | **🤖 İnsansız ve Otonom Sistemler** | İnsansız Su Altı Araçları (UUV/AUV), Uzaktan Kumandalı Araçlar (ROV), Su Altı Planörleri (Gliders), Otonom Sürü (Swarm) Zekası ve İnsan-Makine Takımlaşması. | [Projeleri İncele ve Analiz Et](./04_INSANSIZ_SISTEMLER/PROJELER.md) |
 | **🌐 Dünya Devleri (Top 10)** | Dünyanın en gelişmiş 10 denizaltı platformunun detaylı teknik analizleri. | [Aşağıdaki Listeye Git](#-dünya-devleri-en-gelişmiş-10-denizaltı-platformu) |
+
+---
+
+## 🖥️ İzleme Paneli
+
+`docs/` altında yer alan dashboard; proje havuzunu alan, TRL bandı ve anahtar kelimeye göre filtreler. Panel tamamen statik çalışır; GitHub Pages, yerel HTTP sunucusu veya herhangi bir statik hosting üzerinde ek kurulum istemez.
+
+| Panel Modülü | İçerik |
+| :--- | :--- |
+| **Alan kartları** | Dört ana teknoloji sütununu odak alanlarıyla listeler. |
+| **TRL matrisi** | Projeleri TRL 1-3, 4-6 ve 7-9 bandına göre ayırır. |
+| **Küresel platform grid'i** | Top 10 denizaltı profilini hızlı erişim bağlantılarıyla sunar. |
+| **Veri dosyası** | [docs/data/projects.json](./docs/data/projects.json) üzerinden kolayca güncellenir. |
 
 ---
 
