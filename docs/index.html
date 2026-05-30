@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Denizaltı Akademisi | TRL İzleme Paneli</title>
+  <meta name="description" content="Denizaltı Akademisi teknoloji alanları, TRL dağılımı ve dünya denizaltı platformları için etkileşimli izleme paneli.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../README.md" aria-label="Denizaltı Akademisi ana sayfa">
+      <span class="brand-mark">DA</span>
+      <span>
+        <strong>Denizaltı Akademisi</strong>
+        <small>TRL İzleme Paneli</small>
+      </span>
+    </a>
+    <nav class="topnav" aria-label="Ana gezinme">
+      <a href="#dashboard">Dashboard</a>
+      <a href="#projects">Projeler</a>
+      <a href="#platforms">Dünya Devleri</a>
+      <a href="#method">Metodoloji</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Açık kaynak su altı teknoloji istihbaratı</p>
+        <h1>TRL odaklı denizaltı teknoloji radarını tek ekranda izleyin.</h1>
+        <p>
+          İtki, savaş sistemleri, platform teknolojileri ve insansız su altı araçları için
+          olgunluk seviyelerini, kritik trendleri ve analiz bağlantılarını birlikte görün.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Proje havuzunu aç</a>
+          <a class="button secondary" href="../TRL_REHBERI.md">TRL rehberi</a>
+        </div>
+      </div>
+      <div class="sonar-panel" aria-label="Özet metrikler">
+        <div class="scope">
+          <span></span>
+          <span></span>
+          <span></span>
+          <b></b>
+        </div>
+        <dl class="quick-stats">
+          <div>
+            <dt>Alan</dt>
+            <dd id="statDomains">4</dd>
+          </div>
+          <div>
+            <dt>Teknoloji</dt>
+            <dd id="statProjects">0</dd>
+          </div>
+          <div>
+            <dt>Olgun TRL</dt>
+            <dd id="statMature">0</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="dashboard" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Durumsal farkındalık</p>
+        <h2>Teknoloji Alanları</h2>
+      </div>
+      <div id="domainGrid" class="domain-grid"></div>
+    </section>
+
+    <section id="projects" class="section split">
+      <div>
+        <div class="section-heading">
+          <p class="eyebrow">TRL matrisi</p>
+          <h2>Proje Havuzu</h2>
+        </div>
+        <div class="filters" aria-label="Proje filtreleri">
+          <label>
+            Alan
+            <select id="domainFilter">
+              <option value="all">Tüm alanlar</option>
+            </select>
+          </label>
+          <label>
+            TRL bandı
+            <select id="trlFilter">
+              <option value="all">Tüm seviyeler</option>
+              <option value="early">TRL 1-3</option>
+              <option value="prototype">TRL 4-6</option>
+              <option value="mature">TRL 7-9</option>
+            </select>
+          </label>
+          <label>
+            Arama
+            <input id="searchInput" type="search" placeholder="sonar, batarya, AUV...">
+          </label>
+        </div>
+        <div id="projectList" class="project-list"></div>
+      </div>
+      <aside class="insight-panel" aria-label="TRL dağılımı">
+        <h3>TRL Dağılımı</h3>
+        <div id="trlBars" class="trl-bars"></div>
+        <p id="insightText"></p>
+      </aside>
+    </section>
+
+    <section id="platforms" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Küresel kıyaslama</p>
+        <h2>Dünya Devleri</h2>
+      </div>
+      <div id="platformGrid" class="platform-grid"></div>
+    </section>
+
+    <section id="method" class="method-band">
+      <div>
+        <p class="eyebrow">Metodoloji</p>
+        <h2>Şeffaf, doğrulanabilir, güncellenebilir.</h2>
+      </div>
+      <ol>
+        <li>Açık kaynak veri ve resmi duyurular çapraz kontrol edilir.</li>
+        <li>Her teknoloji TRL 1-9 bandında kanıt seviyesine göre işaretlenir.</li>
+        <li>Analiz bağlantıları ilgili modül dosyalarına yönlendirilir.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <span>Denizaltı Akademisi</span>
+    <a href="https://github.com/bahattinyunus/denizalti-akademisi">GitHub deposu</a>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>

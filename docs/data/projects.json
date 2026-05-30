@@ -1,0 +1,71 @@
+{
+  "domains": [
+    {
+      "id": "itki-enerji",
+      "name": "İtki ve Enerji Sistemleri",
+      "icon": "🚀",
+      "focus": "AIP, nükleer tahrik, lityum-iyon batarya, yakıt hücresi ve enerji yönetimi.",
+      "source": "../01_ITKI_VE_ENERJI/PROJELER.md"
+    },
+    {
+      "id": "savas-sistemleri",
+      "name": "Savaş ve Silah Sistemleri",
+      "icon": "⚔️",
+      "focus": "Sonar, torpido, elektronik harp, su altı haberleşme ve savaş yönetimi.",
+      "source": "../02_SAVAS_SISTEMLERI/PROJELER.md"
+    },
+    {
+      "id": "platform-govde",
+      "name": "Platform, Gövde ve Malzeme",
+      "icon": "🚢",
+      "focus": "Hidrodinamik tasarım, mukavim tekne, stealth kaplama ve malzeme teknolojileri.",
+      "source": "../03_PLATFORM_VE_GOVDE/PROJELER.md"
+    },
+    {
+      "id": "insansiz-sistemler",
+      "name": "İnsansız ve Otonom Sistemler",
+      "icon": "🤖",
+      "focus": "UUV, AUV, ROV, glider, sürü zekası ve insan-makine takımlaşması.",
+      "source": "../04_INSANSIZ_SISTEMLER/PROJELER.md"
+    }
+  ],
+  "projects": [
+    {"domainId":"itki-enerji","trl":3,"name":"Katı Hal Batarya Entegrasyonu","status":"Laboratuvar doğrulama","summary":"Li-Ion bataryalara göre daha yüksek enerji yoğunluğu ve yangın güvenliği hedefleyen katı elektrolit yaklaşımı.","source":"../01_ITKI_VE_ENERJI/PROJELER.md"},
+    {"domainId":"itki-enerji","trl":2,"name":"Biyo-Etanol Tabanlı Hidrojen Reformer","status":"Konsept tasarım","summary":"Denizaltı içinde biyo-etanolden hidrojen üretimiyle depolama riskini azaltmayı hedefleyen AIP yaklaşımı.","source":"../01_ITKI_VE_ENERJI/PROJELER.md"},
+    {"domainId":"itki-enerji","trl":6,"name":"XLUUV Modüler Enerji Paketleri","status":"Deniz prototipi","summary":"Uzun görev süreleri için değiştirilebilir batarya kasetleri ve görev modülü tabanlı enerji mimarisi.","source":"../01_ITKI_VE_ENERJI/PROJELER.md"},
+    {"domainId":"itki-enerji","trl":5,"name":"Süperiletken Elektrik Motorları","status":"Bileşen testi","summary":"Daha hafif, sessiz ve yüksek verimli HTS motorlar; kriyojenik soğutma entegrasyonu ana risk.","source":"../01_ITKI_VE_ENERJI/PROJELER.md"},
+    {"domainId":"itki-enerji","trl":9,"name":"Japon Lityum-İyon Batarya Sistemi","status":"Görevde","summary":"Soryu ve Taigei hattında kurşun-asit yerine yüksek kapasiteli Li-Ion batarya kullanımının operasyonel olgunluğu.","source":"../01_ITKI_VE_ENERJI/PROJELER.md"},
+    {"domainId":"itki-enerji","trl":8,"name":"PEM Yakıt Hücresi AIP","status":"Envanterde","summary":"Type-212/214 ailesinde haftalarca su altında kalış sağlayan hidrojen-oksijen yakıt hücresi sistemi.","source":"../01_ITKI_VE_ENERJI/PROJELER.md"},
+    {"domainId":"itki-enerji","trl":9,"name":"Nükleer Tahrik ve Pump-Jet","status":"Görevde","summary":"Yüksek hızda kavitasyon gürültüsünü azaltan ducted propulsor mimarisi.","source":"../01_ITKI_VE_ENERJI/PROJELER.md"},
+    {"domainId":"savas-sistemleri","trl":2,"name":"Kuantum Sonar ve Navigasyon","status":"Temel araştırma","summary":"GPS'siz su altında atomik ve manyetik alan ölçümleriyle navigasyon ve tespit potansiyeli.","source":"../02_SAVAS_SISTEMLERI/PROJELER.md"},
+    {"domainId":"savas-sistemleri","trl":3,"name":"Güdümlü Süperkavitasyon Torpido","status":"Konsept doğrulama","summary":"Gaz kabarcığı içinde sürtünmeyi azaltarak çok yüksek hız hedefleyen yeni nesil torpido konsepti.","source":"../02_SAVAS_SISTEMLERI/PROJELER.md"},
+    {"domainId":"savas-sistemleri","trl":6,"name":"VLWT Anti-Torpido Torpidosu","status":"Deniz demosu","summary":"Gelen torpidoyu hard-kill yöntemiyle engellemeye yönelik çok hafif torpido sınıfı.","source":"../02_SAVAS_SISTEMLERI/PROJELER.md"},
+    {"domainId":"savas-sistemleri","trl":5,"name":"AI Destekli Hedef Sınıflandırma","status":"Simülasyon","summary":"Biyolojik ve çevresel gürültüyü platform izlerinden ayıran derin öğrenme tabanlı sonar analitiği.","source":"../02_SAVAS_SISTEMLERI/PROJELER.md"},
+    {"domainId":"savas-sistemleri","trl":9,"name":"Fiber Optik Güdümlü Ağır Torpido","status":"Görevde","summary":"Operatörün son ana kadar yönlendirme yapabildiği veri bağına sahip ağır torpido sınıfı.","source":"../02_SAVAS_SISTEMLERI/PROJELER.md"},
+    {"domainId":"savas-sistemleri","trl":8,"name":"Fotonik Direk","status":"Envanterde","summary":"Gövdeyi delen klasik periskop yerine kamera ve sensör tabanlı optronik direk mimarisi.","source":"../02_SAVAS_SISTEMLERI/PROJELER.md"},
+    {"domainId":"platform-govde","trl":2,"name":"Meta-Malzeme Akustik Pelerin","status":"Laboratuvar araştırması","summary":"Sonar dalgalarını platform etrafında yönlendirmeyi hedefleyen akustik görünmezlik yaklaşımı.","source":"../03_PLATFORM_VE_GOVDE/PROJELER.md"},
+    {"domainId":"platform-govde","trl":3,"name":"Biyo-Mimetik Esnek Gövde","status":"Model testleri","summary":"Balık hareketinden ilham alan esnek polimer-kompozit dış yüzey ve gövde konsepti.","source":"../03_PLATFORM_VE_GOVDE/PROJELER.md"},
+    {"domainId":"platform-govde","trl":6,"name":"Elmas Geometrili Stealth Gövde","status":"İnşa ve test","summary":"Aktif sonar ekolarını dağıtmak için açılı yüzeyler kullanan Type-212CD benzeri form.","source":"../03_PLATFORM_VE_GOVDE/PROJELER.md"},
+    {"domainId":"platform-govde","trl":5,"name":"HY-130 ve Üzeri Ultra-Mukavemetli Çelik","status":"Malzeme testi","summary":"Daha derin dalış ve daha hafif mukavim tekne için ileri çelik karakterizasyonu.","source":"../03_PLATFORM_VE_GOVDE/PROJELER.md"},
+    {"domainId":"platform-govde","trl":9,"name":"Anechoic Kaplamalar","status":"Görevde","summary":"Makine gürültüsünü azaltan ve aktif sonar pinglerini sönümleyen kauçuk-polimer karo teknolojisi.","source":"../03_PLATFORM_VE_GOVDE/PROJELER.md"},
+    {"domainId":"platform-govde","trl":9,"name":"X-Dümen Konfigürasyonu","status":"Görevde","summary":"Sığ sularda manevra ve hasar toleransı avantajı sağlayan X-rudder mimarisi.","source":"../03_PLATFORM_VE_GOVDE/PROJELER.md"},
+    {"domainId":"insansiz-sistemler","trl":3,"name":"Otonom Sürü Zekası","status":"Simülasyon ve havuz testi","summary":"Merkezi olmayan karar alma ile çoklu UUV koordinasyonu ve dağıtık tespit yaklaşımı.","source":"../04_INSANSIZ_SISTEMLER/PROJELER.md"},
+    {"domainId":"insansiz-sistemler","trl":6,"name":"Boeing Orca XLUUV","status":"Deniz testleri","summary":"Aylarca otonom görev yapabilen, büyük faydalı yük taşıyabilen XLUUV sınıfı.","source":"../04_INSANSIZ_SISTEMLER/PROJELER.md"},
+    {"domainId":"insansiz-sistemler","trl":5,"name":"Torpido Kovanından Atılan UUV","status":"Entegrasyon testi","summary":"Denizaltıdan çıkıp görev sonrası aynı kovana geri kazanılmayı hedefleyen UUV operasyon modeli.","source":"../04_INSANSIZ_SISTEMLER/PROJELER.md"},
+    {"domainId":"insansiz-sistemler","trl":4,"name":"Su Altı Planörleri","status":"Askeri kullanım gelişiyor","summary":"Safra değişimiyle süzülerek uzun süreli oşinografi, izleme ve pasif dinleme görevi yapabilen platformlar.","source":"../04_INSANSIZ_SISTEMLER/PROJELER.md"},
+    {"domainId":"insansiz-sistemler","trl":9,"name":"Mayın İmha ROV'ları","status":"Görevde","summary":"Mayına yaklaşarak imha yükü bırakan veya tek kullanımlık çalışan uzaktan kumandalı sistemler.","source":"../04_INSANSIZ_SISTEMLER/PROJELER.md"},
+    {"domainId":"insansiz-sistemler","trl":8,"name":"Kıyı Gözetleme AUV'leri","status":"Envanterde","summary":"Sığ sularda taban haritalama ve mayın tarama için hafif otonom su altı araçları.","source":"../04_INSANSIZ_SISTEMLER/PROJELER.md"}
+  ],
+  "platforms": [
+    {"name":"Seawolf Sınıfı","country":"USA","tagline":"Akustik gizlilik ve derin deniz hakimiyetiyle öne çıkan nükleer taarruz platformu.","source":"../05_DUNYA_DEVLERI/01_Seawolf_Class_USA/PROFIL.md"},
+    {"name":"Virginia Block V","country":"USA","tagline":"Modüler görev mimarisi ve Virginia Payload Module ile geniş vuruş kapasitesi.","source":"../05_DUNYA_DEVLERI/02_Virginia_Class_USA/PROFIL.md"},
+    {"name":"Yasen-M","country":"Rusya","tagline":"Nükleer taarruz ve seyir füzesi görevlerini birleştiren yüksek tehdit profili.","source":"../05_DUNYA_DEVLERI/03_Yasen-M_Class_RUS/PROFIL.md"},
+    {"name":"Astute","country":"Birleşik Krallık","tagline":"Gelişmiş sonar süiti ve uzun menzilli denizaltı takip kabiliyetiyle bilinir.","source":"../05_DUNYA_DEVLERI/04_Astute_Class_UK/PROFIL.md"},
+    {"name":"Suffren","country":"Fransa","tagline":"Kompakt nükleer mimari, X dümen ve özel kuvvet görev desteği.","source":"../05_DUNYA_DEVLERI/05_Suffren_Class_FRA/PROFIL.md"},
+    {"name":"Type-212CD","country":"Almanya/Norveç","tagline":"Elmas geometrili stealth form ve yakıt hücresi AIP ile dikkat çeker.","source":"../05_DUNYA_DEVLERI/06_Type-212CD_GER/PROFIL.md"},
+    {"name":"Taigei","country":"Japonya","tagline":"Lityum-iyon batarya mimarisini standartlaştıran modern konvansiyonel sınıf.","source":"../05_DUNYA_DEVLERI/07_Taigei_Class_JPN/PROFIL.md"},
+    {"name":"Borei-A","country":"Rusya","tagline":"Stratejik caydırıcılık için modernize edilmiş balistik füze denizaltısı.","source":"../05_DUNYA_DEVLERI/08_Borei-A_Class_RUS/PROFIL.md"},
+    {"name":"KSS-III Batch-I","country":"Güney Kore","tagline":"Konvansiyonel platformda VLS ve SLBM kabiliyetiyle ayrışır.","source":"../05_DUNYA_DEVLERI/09_KSS-III_Batch-I_KOR/PROFIL.md"},
+    {"name":"Type-039C","country":"Çin","tagline":"Açılı sail tasarımı ve A2/AD bağlamındaki modern dizel-elektrik rolü.","source":"../05_DUNYA_DEVLERI/10_Type-039C_CHN/PROFIL.md"}
+  ]
+}
